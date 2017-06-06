@@ -7,3 +7,7 @@ def follow(thefile):
             time.sleep(0.1)
             continue
         yield line
+        
+logfile = open("access-log")
+for line in follow(logfile):
+    print line,
