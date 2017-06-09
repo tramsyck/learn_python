@@ -1,0 +1,7 @@
+1.python virtualenv
+2 virtualenv project
+3.install scrapy
+  a.install twisted
+  b.install libssl-dev
+  c.install scrapy
+
