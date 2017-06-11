@@ -9,3 +9,8 @@
 class ArticlespiderPipeline(object):
     def process_item(self, item, spider):
         return item
+
+
+class MyJsonArticlePipeline(object):
+    def process_item(self, item, spider):
+        return item

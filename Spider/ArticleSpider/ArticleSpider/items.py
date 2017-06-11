@@ -12,3 +12,11 @@ class ArticlespiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+
+class ArticleItem(scrapy.Item):
+    title = scrapy.Field()
+    create_date = scrapy.Field()
+    front_img = scrapy.Field()
+    front_img_path = scrapy.Field()
+    content = scrapy.Field()
